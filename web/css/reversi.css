@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2017, 6:20:33 PM
+    Author     : Peer-Anders Halvorsen
+*/
+
+body{
+    width: 80%;
+}
+.win{
+    background-color:  gold;
+}
+.header {
+    background-color: lightblue;
+    font-size: 80%;
+}
+.footer {
+    background-color: lightblue;
+}
+.cell {
+    width: 42px;
+    height: 42px;
+    background-color: green;
+    color: green;
+}
+.BLACK {
+    background-image: url("../images/black.png");
+}
+.WHITE {
+    background-image: url("../images/white.png");
+}
+.empty {
+    background-color: green;
+}
+td {
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    font-size: 0px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px solid black;
+}
+.messages{
+    color: red;
+    text-align: center;
+    font-size: 125%;
+}
